@@ -11,3 +11,12 @@ export default function Home() {
     </main>
   )
 }
+const car = {car: "Toyota", brand: 2024};
+console.log(car);
+
+function printId(id: string | number): void {
+  console.log('Your ID is: ${id}');
+}
+
+printId(2345);
+console.log(main.ID)
